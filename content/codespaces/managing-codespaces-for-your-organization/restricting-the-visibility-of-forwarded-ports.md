@@ -1,7 +1,7 @@
 ---
 title: Restricting the visibility of forwarded ports
 shortTitle: Restrict port visibility
-intro: 'You can set constraints on the visibility options users can choose when they forward ports from codespaces in your organization.'
+intro: 'You can set constraints on the visibility options users can choose when they forward ports from Codespaces in your organization.'
 product: '{% data reusables.gated-features.codespaces %}'
 permissions: 'To manage access to port visibility constraints for the repositories in an organization, you must be an owner of the organization.'
 versions:
@@ -20,7 +20,7 @@ As an organization owner, you may want to configure constraints on the visibilit
 
 ### Behavior when you set a port visibility constraint
 
-If there are existing codespaces that no longer conform to a policy you have defined, these codespaces will continue to operate until they are stopped or time out. When the user resumes the codespace, it will be subject to the policy constraints.
+If there are existing Codespaces that no longer conform to a policy you have defined, those C ,odespaces will continue to operate until they are stopped or time out. When the user resumes the codespace, it will be subject to the policy constraints.
 
 {% note %}
 
